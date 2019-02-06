@@ -12,13 +12,37 @@ typedef struct ADC_Config__ *ADC_Handler;
 typedef struct ADC_Param__{
    bool m_allocated;
 }ADC_Param;
-/*
-  function pointer of ADC_OPEN
-  return : will return ADC_Config structure
-*/
+
+
+/** \brief
+ *  OPEN ADC driver
+ * \param : handler of the ADC_instance
+ * \param : param as a default argument
+ * \return : return ADC Handler
+ *
+ */
 
 typedef ADC_Handler (*ADC_OPEN)(ADC_Handler handler, ADC_Param *param);
+
+
+/** \brief
+ *  ADC_INIT
+ * \param : ADC handler
+ * \return : return with ADC object
+ *
+ */
+
 typedef void (*ADC_INIT)(ADC_Handler handler);
+
+
+/** \brief
+ *  ADC_READING_SAMPLE
+ * \param : ADC_Handler
+ * \param : Return value
+ * \return : true on success otherwise false
+ *
+ */
+
 typedef uint16_t (*ADC_SAMPLE)(ADC_Handler handler, uint16_t *value);
 
 /*
