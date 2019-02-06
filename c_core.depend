@@ -34,27 +34,25 @@
 	"adcsdk.h"
 	<stdio.h>
 
-1549449715 source:w:\code block\c_sdk\c_core\board.c
+1549451496 source:w:\code block\c_sdk\c_core\board.c
 	"board.h"
 	"ADC.h"
 
 1549449597 w:\code block\c_sdk\c_core\board.h
 	"ADC.h"
 
-1549446201 source:w:\code block\c_sdk\c_core\adc.c
+1549452085 source:w:\code block\c_sdk\c_core\adc.c
 	"ADC.h"
 	<stdio.h>
 
-1549446576 w:\code block\c_sdk\c_core\adc.h
+1549452079 w:\code block\c_sdk\c_core\adc.h
 	<stdbool.h>
 	<stdint.h>
 	<stdio.h>
 
-1549447717 source:w:\code block\c_sdk\c_core\pic24f1xx_adc.c
+1549451931 source:w:\code block\c_sdk\c_core\pic24f1xx_adc.c
 	"ADC.h"
 	"PIC24F1XX_ADC.h"
-	"adc_core.h"
-	"map.h"
 
 1549446302 source:w:\code block\c_sdk\c_core\pic24f1xx_core.c
 	"PIC24F1XX_CORE.h"

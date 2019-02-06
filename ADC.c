@@ -23,6 +23,14 @@ ADC_Handler adc_open(uint8_t adc_indx, ADC_Param *param)
 
    return (handler);
 }
+/** \brief
+ *
+ * \param
+ * \param
+ * \return
+ *
+ */
+
 void adc_init(void)
 {
    uint8_t count = 0;
@@ -31,7 +39,12 @@ void adc_init(void)
        ADC_Instance[count].fxnTable->initFxn((ADC_Handler)&(ADC_Instance[count]));
    }
 }
+
 void adc_default_init(ADC_Param *param)
 {
    *param = ADC_defualtParam;
+}
+uint16_t readADCSample(ADC_Handler handler, uint16_t *value)
+{
+  return (handler->fxnTable->sampleFxn(handler, value));
 }

@@ -8,9 +8,17 @@ static void boardInit(void)
 {
     adc_init();         //initialize core ADC driver
 }
+static void open_driverAPI(void)
+{
+  adc_default_init(&param);        //initialize user ADC driver, should be call once in while
+  g_common_strcut.handler = adc_open(0, &param);  //return ADC Handle will store as pointer in structure
+}
 void driver_init(void)
 {
+    uint16_t number = 0;
     boardInit();      // creating board initialize
-    adc_default_init(&param);
-    g_common_strcut.handler = adc_open(0, &param);
+    open_driverAPI();
+    readADCSample(g_common_strcut.handler, &number);
+    printf("%d", number);
+
 }
