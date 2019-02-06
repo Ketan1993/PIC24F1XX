@@ -17,11 +17,16 @@
 */
 
 
+/** \brief
+ * Common structure for the store driver handler
+ */
+
 typedef struct common_strcut__{
-    ADC_Handler handler;
+    ADC_Handler handler;            //it will hold the ADC handler
 }common_strcut;
 
 extern common_strcut g_common_strcut;
+
 /*driver initialization function*/
 void driver_init(void);
 

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1549441379 source:w:\code block\c_sdk\c_core\main.c
+1549449490 source:w:\code block\c_sdk\c_core\main.c
 	<stdio.h>
 	"main.h"
 
@@ -34,11 +34,11 @@
 	"adcsdk.h"
 	<stdio.h>
 
-1549446494 source:w:\code block\c_sdk\c_core\board.c
+1549449715 source:w:\code block\c_sdk\c_core\board.c
 	"board.h"
 	"ADC.h"
 
-1549441616 w:\code block\c_sdk\c_core\board.h
+1549449597 w:\code block\c_sdk\c_core\board.h
 	"ADC.h"
 
 1549446201 source:w:\code block\c_sdk\c_core\adc.c
