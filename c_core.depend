@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1549441379 source:w:\code block\c_sdk\c_core\main.c
+	<stdio.h>
+	"main.h"
+
+1548679459 source:w:\test\common.c
+	"ADC.h"
+	"adcsdk.h"
+
+1548747374 w:\test\adc.h
+	<stdint.h>
+	<stdbool.h>
+
+1548677220 w:\test\adcsdk.h
+	"ADC.h"
+
+1549433698 source:w:\test\main.c
+	<stdio.h>
+	<string.h>
+	"ADC.h"
+	"main.h"
+
+1548678221 w:\test\main.h
+	<stdio.h>
+	"ADC.h"
+
+1549436379 source:w:\test\adc.c
+	"ADC.h"
+	"adcsdk.h"
+	<stdlib.h>
+
+1549436364 source:w:\test\adcsdk.c
+	"ADC.h"
+	"adcsdk.h"
+	<stdio.h>
+
+1549446494 source:w:\code block\c_sdk\c_core\board.c
+	"board.h"
+	"ADC.h"
+
+1549441616 w:\code block\c_sdk\c_core\board.h
+	"ADC.h"
+
+1549446201 source:w:\code block\c_sdk\c_core\adc.c
+	"ADC.h"
+	<stdio.h>
+
+1549446576 w:\code block\c_sdk\c_core\adc.h
+	<stdbool.h>
+	<stdint.h>
+	<stdio.h>
+
+1549447717 source:w:\code block\c_sdk\c_core\pic24f1xx_adc.c
+	"ADC.h"
+	"PIC24F1XX_ADC.h"
+	"adc_core.h"
+	"map.h"
+
+1549446302 source:w:\code block\c_sdk\c_core\pic24f1xx_core.c
+	"PIC24F1XX_CORE.h"
+	"ADC.h"
+	"PIC24F1XX_ADC.h"
+
+1549440516 w:\code block\c_sdk\c_core\pic24f1xx_core.h
+
+1549446296 w:\code block\c_sdk\c_core\pic24f1xx_adc.h
+	<stdbool.h>
+
+1549441367 w:\code block\c_sdk\c_core\main.h
+	"board.h"
+
+1549447103 source:w:\code block\c_sdk\c_core\adc_core.c
+	"adc_core.h"
+	<stdio.h>
+
+1549447099 w:\code block\c_sdk\c_core\adc_core.h
+
+1549447672 w:\code block\c_sdk\c_core\map.h
+
