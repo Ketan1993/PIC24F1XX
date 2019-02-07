@@ -1,8 +1,9 @@
 #ifndef ADC_H_INCLUDED
 #define ADC_H_INCLUDED
+
 #include <stdbool.h>
-#include <stdint.h>
 #include <stdio.h>
+#include"data_type.h"
 
 /*
    forward declaration for the ADC handler
@@ -43,7 +44,7 @@ typedef void (*ADC_INIT)(ADC_Handler handler);
  *
  */
 
-typedef uint16_t (*ADC_SAMPLE)(ADC_Handler handler, uint16_t *value);
+typedef _u16 (*ADC_SAMPLE)(ADC_Handler handler, _u16 *value);
 
 /*
    ADC Function pointer table
@@ -70,9 +71,20 @@ typedef struct ADC_Config__{
  *
  */
 
-extern ADC_Handler adc_open(uint8_t adc_indx, ADC_Param *param);
+extern ADC_Handler adc_open(_u8 adc_indx, ADC_Param *param);
+
+/*!
+ *  @brief  Function to initialize the ADC_Params struct to its defaults
+ *
+ *  @param  params      An pointer to ADC_Params structure for
+ *                      initialization
+ *
+ *  Defaults values are:
+ *      m_allocated = true
+ */
+
 extern void adc_default_init(ADC_Param *param);
 extern void adc_init(void);
-extern uint16_t readADCSample(ADC_Handler handler, uint16_t *value);
+extern _u16 readADCSample(ADC_Handler handler, _u16 *value);
 
 #endif // ADC_H_INCLUDED

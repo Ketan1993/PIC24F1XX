@@ -34,27 +34,28 @@
 	"adcsdk.h"
 	<stdio.h>
 
-1549451496 source:w:\code block\c_sdk\c_core\board.c
+1549521863 source:w:\code block\c_sdk\c_core\board.c
 	"board.h"
 	"ADC.h"
 
-1549449597 w:\code block\c_sdk\c_core\board.h
+1549521832 w:\code block\c_sdk\c_core\board.h
 	"ADC.h"
+	"PIC24F1XX_CORE.h"
 
-1549452085 source:w:\code block\c_sdk\c_core\adc.c
+1549521546 source:w:\code block\c_sdk\c_core\adc.c
 	"ADC.h"
 	<stdio.h>
 
-1549452079 w:\code block\c_sdk\c_core\adc.h
+1549521518 w:\code block\c_sdk\c_core\adc.h
 	<stdbool.h>
-	<stdint.h>
 	<stdio.h>
+	"data_type.h"
 
-1549451931 source:w:\code block\c_sdk\c_core\pic24f1xx_adc.c
+1549521558 source:w:\code block\c_sdk\c_core\pic24f1xx_adc.c
 	"ADC.h"
 	"PIC24F1XX_ADC.h"
 
-1549446302 source:w:\code block\c_sdk\c_core\pic24f1xx_core.c
+1549521569 source:w:\code block\c_sdk\c_core\pic24f1xx_core.c
 	"PIC24F1XX_CORE.h"
 	"ADC.h"
 	"PIC24F1XX_ADC.h"
@@ -74,4 +75,6 @@
 1549447099 w:\code block\c_sdk\c_core\adc_core.h
 
 1549447672 w:\code block\c_sdk\c_core\map.h
+
+1549521265 w:\code block\c_sdk\c_core\data_type.h
 

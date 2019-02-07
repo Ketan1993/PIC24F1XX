@@ -1,8 +1,3 @@
-#ifndef BOARD_H_INCLUDED
-#define BOARD_H_INCLUDED
-
-#include"ADC.h"
-
 /*
  function pattern
  function name   : should be using underscore
@@ -16,6 +11,14 @@
                    every line should have a description
 */
 
+#ifndef BOARD_H_INCLUDED
+#define BOARD_H_INCLUDED
+
+#include"ADC.h"
+#include "PIC24F1XX_CORE.h"
+
+
+#define ADC_CHANNLE0  PIC24F1XX_ADC0
 
 /** \brief
  * Common structure for the store driver handler

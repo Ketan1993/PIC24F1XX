@@ -13,4 +13,4 @@ const ADC_Config ADC_Instance[PIC24F1XX_TOTAL_ADC] = {
      .Object = &PIC24F1XX_ADCObject[PIC24F1XX_ADC0]
  }
 };
-const uint8_t ADC_count = PIC24F1XX_TOTAL_ADC;
+const _u8 ADC_count = PIC24F1XX_TOTAL_ADC;
